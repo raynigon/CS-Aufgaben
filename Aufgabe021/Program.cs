@@ -78,6 +78,14 @@ namespace Aufgabe021
             return !(k0 == k1);
         }
 
+        public override bool Equals(object obj)
+        {
+            Komplex other = obj as Komplex;
+            if (other!=null)
+                return other == this;
+            return base.Equals(obj);
+        }
+
         public override string ToString()
         {
             return String.Format("{0} + {1}i", real, img);

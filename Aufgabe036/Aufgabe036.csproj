@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{BD88B6F5-B987-4C95-828C-AD97E6DCC41C}</ProjectGuid>
+    <ProjectGuid>{8BED8DB2-FC24-498E-9C85-E19D78E4C36A}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Aufgabe025</RootNamespace>
-    <AssemblyName>Aufgabe025</AssemblyName>
+    <RootNamespace>Aufgabe036</RootNamespace>
+    <AssemblyName>Aufgabe036</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -44,7 +44,6 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Queue.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
