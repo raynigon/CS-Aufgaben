@@ -10,6 +10,7 @@ namespace Aufgabe017
     {
         static void Main(string[] args)
         {
+            // See Aufgabe016 for this Taks
             System.Threading.Thread.Sleep(10000);
         }
     }
