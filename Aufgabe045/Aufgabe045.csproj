@@ -42,8 +42,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ISieb.cs" />
+    <Compile Include="ParallelSieb.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SerialSieb.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
